@@ -1,0 +1,11 @@
+.user-card {
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+
+    & > mat-card {
+        background-color: #add8e659;
+        color: darkblue;
+    }
+    
+}
