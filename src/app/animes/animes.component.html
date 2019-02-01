@@ -1,0 +1,10 @@
+<div class="animes-card">
+    <!-- TODO: to move the following class to another component -->
+    <div class="animes-list">
+      <mat-card *ngFor="let anime of animes" (click)="viewAnimeDetails(anime)">
+        <mat-card-header>{{anime?.title}}</mat-card-header>
+        <mat-card-content>Number of episodes: {{anime?.episodes}}</mat-card-content>
+      </mat-card>
+    </div>
+
+  </div>

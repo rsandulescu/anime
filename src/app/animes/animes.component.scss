@@ -1,0 +1,26 @@
+.animes-card {
+    display: flex;
+    flex-direction: column;
+
+    & > mat-form-field {
+        width: 200px;
+        align-self: flex-end;
+        margin: 10px;
+    }
+
+    .animes-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #add8e659;
+
+        & > mat-card {
+            background-color: lightgrey;
+            color: darkblue;
+            width: 20%;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+}
