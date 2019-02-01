@@ -1,0 +1,16 @@
+.main-page-content {
+    position: relative;
+    display: flex;
+}
+
+nav {
+    height: 50px;
+
+    .back-button {
+        margin-left: 20px;
+        background-color: inherit;
+        border: none;
+        font-size: 35px;
+    }
+}
+
